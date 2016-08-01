@@ -3,7 +3,8 @@ Based on qutip mesolve, a simple implementation using pycuda
 
 ## Usage
 The same api as qutip
-V_cuda = mesolve(hamiltonian, rho0, tlists, c_ops, e_ops, params)
+
+result = mesolve(hamiltonian, rho0, tlists, c_ops, e_ops, params)
 
 - tlists is expected to be a list of tlist (a tlist for every possible parameter)
 - params can hold parameter ranges:
@@ -11,6 +12,8 @@ params = [
     ('I0', I),
     ('wp', np.arange(0.1, 2.0, 0.1))
 ]
+
+See example for more info
 
 ## Example
 - volatage response for a single jospehson junction
