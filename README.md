@@ -1,6 +1,15 @@
 # mesolve-cuda
 Based on qutip mesolve, a simple implementation using pycuda
 
+## Dependencies
+Preferebly Python 3
+
+- qutip
+- numpy
+- pycuda
+- jinja2
+- matplotlib (optional)
+
 ## Usage
 The same api as qutip
 
@@ -18,6 +27,8 @@ See example for more info
 ## Example
 - volatage response for a single jospehson junction
 - performance test
+
+execute example with: python3 -m example.voltage_response
 
 ###Calculation of voltage with qutip and cuda
 ![Voltage](https://github.com/Jesse-jApps/mesolve-cuda/blob/master/voltage.png "Voltage")
