@@ -14,7 +14,14 @@ params = [
 
 ## Example
 - volatage response for a single jospehson junction
--- 
+- performance test
+
+###Calculation of voltage with qutip and cuda
+![Voltage](https://github.com/Jesse-jApps/mesolve-cuda/blob/master/voltage.png "Voltage")
+
+###Performance
+![Performance](https://github.com/Jesse-jApps/mesolve-cuda/blob/master/performance.png "Performance")
+
 
 ## Todos
 - Better Runge-Kutta implementation - 5(4)
@@ -25,7 +32,11 @@ params = [
 To enable use cuda devices, the correct environment has to be set
 
 export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/cuda-7.5/lib64
+
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-7.5/lib64
+
 export C_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/local/cuda-7.5/include
+
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/usr/local/cuda-7.5/include
+
 export PATH=$PATH:/usr/local/cuda-7.5/bin
