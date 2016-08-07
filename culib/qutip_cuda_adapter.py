@@ -9,7 +9,7 @@ adapter to work qutip-like
 import qutip as q
 import numpy as np
 
-from lib.cuda_solver import MesolveResult
+from .cuda_solver import MesolveResult
 
 class QtipMesolveResult(MesolveResult):
     def __init__(self, hamiltonian, rho, tlist, c_ops, e_ops, params):

@@ -8,7 +8,7 @@ mesolve implementation using pycuda
 
 import numpy as np
 from jinja2 import Template
-from lib import load_lib_file
+from . import load_lib_file
 
 import pycuda.autoinit
 import pycuda.driver as drv
