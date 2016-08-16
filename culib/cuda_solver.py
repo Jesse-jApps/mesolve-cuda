@@ -235,6 +235,7 @@ class MesolveResult():
 
         #print(rho.get())
 
+
         self.mesolve(*arguments,
             block=self.block,
             grid=self.grid
