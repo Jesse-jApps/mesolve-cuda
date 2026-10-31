@@ -1,3 +1,13 @@
+## Project status
+
+Historical project, last developed in 2016. Experimental CUDA solver. Numerical correctness, adaptive integration, current dependencies and GPU performance need fresh validation before scientific reuse.
+
+No current runtime or production compatibility is claimed. The original source
+and results are retained for reference.
+
+Source code authored by Jesse Hinrichsen is licensed under MIT. Third-party
+code and external data retain their existing terms.
+
 # mesolve-cuda
 Based on qutip mesolve, a simple implementation using pycuda
 
